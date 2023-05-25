@@ -8,17 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		F17F9FF72A1BCCE700EA50C2 /* nc2_locationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F9FF62A1BCCE700EA50C2 /* nc2_locationApp.swift */; };
-		F17F9FF92A1BCCE700EA50C2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17F9FF82A1BCCE700EA50C2 /* ContentView.swift */; };
 		F17F9FFB2A1BCCE700EA50C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17F9FFA2A1BCCE700EA50C2 /* Assets.xcassets */; };
 		F17F9FFE2A1BCCE700EA50C2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17F9FFD2A1BCCE700EA50C2 /* Preview Assets.xcassets */; };
+		F17FA02C2A1BCDC300EA50C2 /* LoginManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17FA02B2A1BCDC300EA50C2 /* LoginManager.swift */; };
+		F17FA02F2A1BCDE200EA50C2 /* BoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17FA02E2A1BCDE200EA50C2 /* BoardingView.swift */; };
+		F17FA0332A1BCE1700EA50C2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17FA0322A1BCE1700EA50C2 /* LocationManager.swift */; };
+		F17FA0352A1BCE2300EA50C2 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17FA0342A1BCE2300EA50C2 /* LocationView.swift */; };
+		F1998F7F2A1CED3600C80F11 /* CrimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1998F7E2A1CED3600C80F11 /* CrimeModel.swift */; };
+		F1998F832A1CF79C00C80F11 /* RegionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1998F822A1CF79C00C80F11 /* RegionModel.swift */; };
+		F1998F852A1D084F00C80F11 /* CrimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1998F842A1D084F00C80F11 /* CrimeManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F17F9FF32A1BCCE700EA50C2 /* nc2-location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nc2-location.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17F9FF62A1BCCE700EA50C2 /* nc2_locationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nc2_locationApp.swift; sourceTree = "<group>"; };
-		F17F9FF82A1BCCE700EA50C2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F17F9FFA2A1BCCE700EA50C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F17F9FFD2A1BCCE700EA50C2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F17FA02B2A1BCDC300EA50C2 /* LoginManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginManager.swift; sourceTree = "<group>"; };
+		F17FA02E2A1BCDE200EA50C2 /* BoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardingView.swift; sourceTree = "<group>"; };
+		F17FA0322A1BCE1700EA50C2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F17FA0342A1BCE2300EA50C2 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		F17FA0362A1BCF7A00EA50C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F1998F7E2A1CED3600C80F11 /* CrimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimeModel.swift; sourceTree = "<group>"; };
+		F1998F822A1CF79C00C80F11 /* RegionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionModel.swift; sourceTree = "<group>"; };
+		F1998F842A1D084F00C80F11 /* CrimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrimeManager.swift; sourceTree = "<group>"; };
+		F1998F892A1E521A00C80F11 /* Pamulang.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Pamulang.gpx; sourceTree = "<group>"; };
+		F1998F8A2A1E522E00C80F11 /* Pondok Aren.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Pondok Aren.gpx"; sourceTree = "<group>"; };
+		F1998F8B2A1E523800C80F11 /* Setu.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Setu.gpx; sourceTree = "<group>"; };
+		F1998F8C2A1E524A00C80F11 /* Serpong.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Serpong.gpx; sourceTree = "<group>"; };
+		F1998F8D2A1E525800C80F11 /* Serpong Utara.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Serpong Utara.gpx"; sourceTree = "<group>"; };
+		F1998F8E2A1E526100C80F11 /* Ciputat.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Ciputat.gpx; sourceTree = "<group>"; };
+		F1998F8F2A1E527000C80F11 /* Ciputat Timur.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Ciputat Timur.gpx"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +71,10 @@
 		F17F9FF52A1BCCE700EA50C2 /* nc2-location */ = {
 			isa = PBXGroup;
 			children = (
-				F17F9FF62A1BCCE700EA50C2 /* nc2_locationApp.swift */,
-				F17F9FF82A1BCCE700EA50C2 /* ContentView.swift */,
-				F17F9FFA2A1BCCE700EA50C2 /* Assets.xcassets */,
+				F17FA0362A1BCF7A00EA50C2 /* Info.plist */,
+				F17FA0252A1BCD3200EA50C2 /* Application */,
+				F17FA0262A1BCD8900EA50C2 /* Features */,
+				F17FA0242A1BCD2800EA50C2 /* Resources */,
 				F17F9FFC2A1BCCE700EA50C2 /* Preview Content */,
 			);
 			path = "nc2-location";
@@ -65,6 +86,115 @@
 				F17F9FFD2A1BCCE700EA50C2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F17FA0242A1BCD2800EA50C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1998F882A1E51F200C80F11 /* GpsLocation */,
+				F17F9FFA2A1BCCE700EA50C2 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F17FA0252A1BCD3200EA50C2 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F17F9FF62A1BCCE700EA50C2 /* nc2_locationApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F17FA0262A1BCD8900EA50C2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA0282A1BCD9600EA50C2 /* Location */,
+				F17FA0272A1BCD9100EA50C2 /* Auth */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		F17FA0272A1BCD9100EA50C2 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA0292A1BCDA600EA50C2 /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		F17FA0282A1BCD9600EA50C2 /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				F1998F7D2A1CED2500C80F11 /* Models */,
+				F17FA0312A1BCE0300EA50C2 /* Views */,
+				F17FA0302A1BCDFB00EA50C2 /* ViewModels */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		F17FA0292A1BCDA600EA50C2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA02D2A1BCDD600EA50C2 /* Views */,
+				F17FA02A2A1BCDB200EA50C2 /* ViewModels */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F17FA02A2A1BCDB200EA50C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA02B2A1BCDC300EA50C2 /* LoginManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F17FA02D2A1BCDD600EA50C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA02E2A1BCDE200EA50C2 /* BoardingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F17FA0302A1BCDFB00EA50C2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA0322A1BCE1700EA50C2 /* LocationManager.swift */,
+				F1998F842A1D084F00C80F11 /* CrimeManager.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F17FA0312A1BCE0300EA50C2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F17FA0342A1BCE2300EA50C2 /* LocationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F1998F7D2A1CED2500C80F11 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F1998F7E2A1CED3600C80F11 /* CrimeModel.swift */,
+				F1998F822A1CF79C00C80F11 /* RegionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F1998F882A1E51F200C80F11 /* GpsLocation */ = {
+			isa = PBXGroup;
+			children = (
+				F1998F892A1E521A00C80F11 /* Pamulang.gpx */,
+				F1998F8A2A1E522E00C80F11 /* Pondok Aren.gpx */,
+				F1998F8B2A1E523800C80F11 /* Setu.gpx */,
+				F1998F8C2A1E524A00C80F11 /* Serpong.gpx */,
+				F1998F8D2A1E525800C80F11 /* Serpong Utara.gpx */,
+				F1998F8E2A1E526100C80F11 /* Ciputat.gpx */,
+				F1998F8F2A1E527000C80F11 /* Ciputat Timur.gpx */,
+			);
+			path = GpsLocation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +267,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F17F9FF92A1BCCE700EA50C2 /* ContentView.swift in Sources */,
+				F1998F852A1D084F00C80F11 /* CrimeManager.swift in Sources */,
+				F1998F7F2A1CED3600C80F11 /* CrimeModel.swift in Sources */,
+				F17FA0352A1BCE2300EA50C2 /* LocationView.swift in Sources */,
 				F17F9FF72A1BCCE700EA50C2 /* nc2_locationApp.swift in Sources */,
+				F17FA0332A1BCE1700EA50C2 /* LocationManager.swift in Sources */,
+				F1998F832A1CF79C00C80F11 /* RegionModel.swift in Sources */,
+				F17FA02C2A1BCDC300EA50C2 /* LoginManager.swift in Sources */,
+				F17FA02F2A1BCDE200EA50C2 /* BoardingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +406,10 @@
 				DEVELOPMENT_TEAM = 92RA72FW2S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nc2-location/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +439,10 @@
 				DEVELOPMENT_TEAM = 92RA72FW2S;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "nc2-location/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

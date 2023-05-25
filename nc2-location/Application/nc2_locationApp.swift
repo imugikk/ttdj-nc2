@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct nc2_locationApp: App {
+    
+    init() {
+        let geoFencingLocation = LocationManager()
+        geoFencingLocation.requestAuthorization()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BoardingView()
         }
     }
 }
